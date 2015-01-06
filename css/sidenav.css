@@ -1,0 +1,30 @@
+.sidenav {
+	margin-top: 90px;
+	padding-top: 30px;
+	height: 100%;
+	width: 15%;
+	position: fixed;
+	color: #3E003E;
+}
+/*.sidenav:hover{
+	opacity: 0.4;
+	background-color:white;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}*/
+.sidenav ul li{
+	text-align: right;
+	vertical-align: middle;
+	height: 23px;
+	width: auto;
+	line-height: 30px;
+	font-size: 15px;
+	font-family: 'Raleway', Verdana;
+	background-color: white;
+}
+
+.sidenav a:hover{
+	color: #FE72FE;
+}

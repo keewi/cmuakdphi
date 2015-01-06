@@ -1,0 +1,193 @@
+html {overflow-y: scroll;}
+body{
+	font-family: 'Droid Serif', 'Raleway', 'Proxima Nova',sans-serif;
+	margin: 0;
+}
+
+p {
+	padding: 5px 0;
+	margin: 0;
+	font-family: 'Droid Serif', 'Raleway';
+	font-size: 16px;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway';
+	font-size: 30px;
+	font-weight: 700;
+}
+
+h3 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway';
+	font-size: 30px;
+	font-weight: 700;	
+}
+#copyright{
+	font-size:10px;
+	vertical-align: middle;
+	padding:8px 15%;
+	background-color: #3E003E;
+	color: white;
+}
+
+.panel-pic{
+	width: 100%;
+	display: block;
+	margin: auto;
+	padding: auto;
+	background-color: #180018;
+}
+
+.panel1{
+	background-color: #FFE5FF;
+}
+.panel2 {
+	background-color: white;
+}
+.panel {
+	width: 60%;
+	height: auto;
+	padding: 50px 20%;
+}
+.panel ul {
+	margin: 0;
+}
+.faq li {
+	margin-bottom: 16px;
+}
+.photo-cred {
+	bottom: 0;
+	right: 0;
+}
+.question {
+	font-weight: bold;
+	font-style: italic;
+}
+.title {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 0;
+	font-size: 46px;
+	font-family: 'Raleway', 'Droid Serif';
+	font-weight: 400;
+}
+.art-title {
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	font-size: 80px;
+	font-family: Pristina, 'Raleway';
+	font-weight: 400;
+}
+
+.subtitle {
+	font-size: 28px;
+	font-family: 'Raleway';
+	font-weight: 700;
+	margin-top: 10px;
+}
+.positions {
+	font-weight: bolder;
+	margin-right: 10px;
+	display: inline-block;
+}
+.names {
+	display: inline-block;
+}
+a.pc{display: block; position: relative; top: -140px; visibility: hidden;}
+
+.pledge-class {
+	width: 100%;
+	height: auto;
+	float:left;
+}
+.sister-container {
+	width: 150px;
+	height: 220px;
+	float: left;
+	overflow: hidden;
+	border: 4px solid white;
+	background-color: black;
+}
+.sister-container .img {
+	width: 100%;
+}
+
+.sister-container .img2 {
+	height: 100%;
+}
+.sister-container img:hover {
+	background: black;
+}
+
+.sister-cloud {
+	opacity: 0;
+	position: absolute;
+	width: 145px;
+	height: 240px;
+}
+.sister-cloud:hover {
+	opacity: .9;
+}
+.sister-id {
+	font-size: 11px;
+	padding: 5px;
+	padding-top: 10px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 170px;
+	height: 35px;
+	width: 140px;
+	background-color: black;
+	position: absolute;
+}
+
+.sister-num {
+	display: none;
+	padding: 5px;
+	float: left;
+	margin: auto 0;
+}
+
+#donate-button {
+	height: 70px;
+	width: 200px;
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 3px;
+	color: white;
+}
+input:hover {
+	cursor: pointer;
+}
+input {
+	margin: 0 40%;
+	height: 40px;
+	width: 20%;
+	border: none;
+	background-color: #650065;
+	color: white;
+	border-radius: 3px;
+	font-family: 'Droid Serif';
+	font-size: 24px;
+}
+/*Colors Ref:
+http://www.99colors.net/hex/FE72FE
+http://www.99colors.net/hex/8B008B
+
+Font ref:
+Raleway - clean (topnav, paragraphs)
+Droid Serif - typed (headers)
+
+Unused:
+Tangerine - scripting
+Alegreya+Sans+SC - humanist? clean
+Comfortaa - comfortable
+Pontano+Sans - plain clean
+*/
